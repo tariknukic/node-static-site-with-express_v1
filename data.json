@@ -1,0 +1,58 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Responsive Registration Form",
+            "description": "Creating a responsive, mobile-friendly registration form using a wide variety of HTML form input types and attributes. The project contains a mobile and desktop version of the form created using media queries and a \"mobile-first\" approach.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://tariknukic.github.io/responsive-registration-form/",
+            "github_link": "https://github.com/tariknukic/responsive-registration-form",
+            "image_urls": ["../images/project_3_main.png", "../images/project_3_add.png"]
+        },
+        {
+            "id": 1,
+            "project_name": "Random Quote Generator",
+            "description": "This project is about creating an app that displays famous random quotes each time the user clicks a button and each ten seconds.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://tariknukic.github.io/random-quote-generator/",
+            "github_link": "https://github.com/tariknukic/random-quote-generator",
+            "image_urls": ["../images/project_4_main.png", "../images/project_4_add.png"]
+        },
+        {
+            "id": 2,
+            "project_name": "Word Guessing Game",
+            "description": "This project is about creating a browser version of \"Wheel of Success\", a word guessing game where players will click letters from an onscreen keyboard to try to guess a random phrase.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://tariknukic.github.io/word-guessing-game/",
+            "github_link": "https://github.com/tariknukic/word-guessing-game",
+            "image_urls": ["../images/project_5_main.png", "../images/project_5_add.png"]
+        },
+        {
+            "id": 3,
+            "project_name": "Data Pagination and Filtering with JavaScript",
+            "description": "Building a website for sharing contact information of a various number of students. For this a common web development technique known as \"pagination\" is used to to enhance a web page's usability. In this case pagination buttons are added, that the user can click to display different pages of students",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://tariknukic.github.io/data-pagination-and-filtering/",
+            "github_link": "https://github.com/tariknukic/data-pagination-and-filtering",
+            "image_urls": ["../images/project_6_main.png", "../images/project_6_add.png"]
+        },
+        {
+            "id": 4,
+            "project_name": "Interactive Registration Form",
+            "description": "The project is about enhancing an interactive registration form for a fictional Full Stack conference. JavaScript is added to supplied HTML and CSS files to make the form more user-friendly. This consists of adding customized and conditional behavior and interactivity, as well as validating user input and providing helpful error messages when the user enters invalid information into the form fields.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://tariknukic.github.io/interactive-registration-form/",
+            "github_link": "https://github.com/tariknukic/interactive-registration-form",
+            "image_urls": ["../images/project_7_main.png", "../images/project_7_add.png"]
+        },
+        {
+            "id": 5,
+            "project_name": "Awesome Startup Employee Directory",
+            "description": "Grabing information from an API for 12 radnom \"employees\" and using that data to build a prototype for an employee directory.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://tariknukic.github.io/access-and-use-a-public-api/",
+            "github_link": "https://github.com/tariknukic/access-and-use-a-public-api",
+            "image_urls": ["../images/project_8_main.png", "../images/project_8_add.png"]
+        }
+    ]
+}

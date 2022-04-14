@@ -1,0 +1,42 @@
+extends layout.pug
+
+block content
+
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back
+
+  article.portfolio-projects
+    .inner-wrapper.flex-row-wrap.two-col
+      .project-info-box.box
+
+        //- Use the info in your data file and the comments below to complete this template
+
+        //- Use interpolation to dynamically add the project title
+        h1= projects[id].project_name
+
+        //- Use interpolation to dynamically add the project description
+        p= projects[id].description
+
+      .project-tech-links-box.box
+        h6 Technologies
+        ul
+
+          //- Use an `each` iterator and interpolation to dynamically replace the li tags below with the technologies listed for this project
+          each technology in projects[id].technologies
+            li= technology
+
+        //- Add the href values to the links below
+        a.btn-link(href=projects[id].live_link) Live Demo
+        a.btn-link(href=projects[id].github_link) GitHub Repo
+
+    .project-img-box.box
+
+      //- Replace the URLs in the src attributes below with interpolated template literals to dynamically add your project images, and add descriptions to the alt attributes
+      img.project-img(src=projects[id].image_urls[1], alt='Additional image')
+
+    nav.nav
+      a(href='/')
+        span &larr;
+        |  Back
