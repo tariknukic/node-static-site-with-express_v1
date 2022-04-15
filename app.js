@@ -1,5 +1,5 @@
 const express = require('express');
-const { projects } = require('data.json');
+const { projects } = require('./data.json');
 
 /* Instantiate Express app */
 const app = express();
@@ -20,11 +20,11 @@ app.get('/about', (req, res) => {
     res.render('about');
 });
 
-app.get('/project/:id', (req, res) => {
+app.get('/project/:id', (req, res, next) => {
     const { id } = req.params;
 
     if (projects[id]) {
-        res.render('pug', { projects, id });
+        res.render('project', { projects, id });
     } else {
         const err = new Error(); 
         err.status = 404;
@@ -38,7 +38,10 @@ app.get('/project/:id', (req, res) => {
 
 /* 404 handler to catch undefined or non-existent route requests */
 app.use((req, res, next) => {
-    console.log("404 - Page not found. Looks like that route does not exist.");
+    const err = new Error(); 
+    err.status = 404;
+    err.message = 'Page not found. Looks like that this route does not exist.';
+    console.log(err.status, err.message);
     res.status(404).render('page-not-found');
 });
 
@@ -49,7 +52,7 @@ app.use((err, req, res, next) => {
     } else {
         err.message = err.message || `Oops!  It looks like something went wrong on the server.`;
         err.status = err.status || 500;
-        console.log(`${err.status} - ${err.message}`);
+        console.log(err.status, err.message);
         res.status(err.status || 500).render('error', { err });
     }
 });

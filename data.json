@@ -7,7 +7,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://tariknukic.github.io/responsive-registration-form/",
             "github_link": "https://github.com/tariknukic/responsive-registration-form",
-            "image_urls": ["../images/project_3_main.png", "../images/project_3_add.png"]
+            "image_urls": ["/static/images/project_3_main.png", "/static/images/project_3_add.png", "/static/images/project_3_add_1.png", "/static/images/project_3_add_2.png"]
         },
         {
             "id": 1,
@@ -16,7 +16,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://tariknukic.github.io/random-quote-generator/",
             "github_link": "https://github.com/tariknukic/random-quote-generator",
-            "image_urls": ["../images/project_4_main.png", "../images/project_4_add.png"]
+            "image_urls": ["/static/images/project_4_main.png", "/static/images/project_4_add.png", "/static/images/project_4_add_1.png", "/static/images/project_4_add_2.png"]
         },
         {
             "id": 2,
@@ -25,7 +25,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://tariknukic.github.io/word-guessing-game/",
             "github_link": "https://github.com/tariknukic/word-guessing-game",
-            "image_urls": ["../images/project_5_main.png", "../images/project_5_add.png"]
+            "image_urls": ["/static/images/project_5_main.png", "/static/images/project_5_add.png", "/static/images/project_5_add_1.png", "/static/images/project_5_add_2.png"]
         },
         {
             "id": 3,
@@ -34,7 +34,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://tariknukic.github.io/data-pagination-and-filtering/",
             "github_link": "https://github.com/tariknukic/data-pagination-and-filtering",
-            "image_urls": ["../images/project_6_main.png", "../images/project_6_add.png"]
+            "image_urls": ["/static/images/project_6_main.png", "/static/images/project_6_add.png", "/static/images/project_6_add_1.png", "/static/images/project_6_add_2.png"]
         },
         {
             "id": 4,
@@ -43,7 +43,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://tariknukic.github.io/interactive-registration-form/",
             "github_link": "https://github.com/tariknukic/interactive-registration-form",
-            "image_urls": ["../images/project_7_main.png", "../images/project_7_add.png"]
+            "image_urls": ["/static/images/project_7_main.png", "/static/images/project_7_add.png", "/static/images/project_7_add_1.png", "/static/images/project_7_add_2.png"]
         },
         {
             "id": 5,
@@ -52,7 +52,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://tariknukic.github.io/access-and-use-a-public-api/",
             "github_link": "https://github.com/tariknukic/access-and-use-a-public-api",
-            "image_urls": ["../images/project_8_main.png", "../images/project_8_add.png"]
+            "image_urls": ["/static/images/project_8_main.png", "/static/images/project_8_add.png", "/static/images/project_8_add_1.png", "/static/images/project_8_add_2.png"]
         }
     ]
 }

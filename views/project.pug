@@ -34,7 +34,9 @@ block content
     .project-img-box.box
 
       //- Replace the URLs in the src attributes below with interpolated template literals to dynamically add your project images, and add descriptions to the alt attributes
-      img.project-img(src=projects[id].image_urls[1], alt='Additional image')
+      img.project-img(src=projects[id].image_urls[1], alt='First additional image')
+      img.project-img(src=projects[id].image_urls[2], alt='Second additional image')
+      img.project-img(src=projects[id].image_urls[3], alt='Third additional image')
 
     nav.nav
       a(href='/')
